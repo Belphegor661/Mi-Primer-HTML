@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+
+}
+
+main{
+    display: block;
+}
+
+header{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.contenedor-principal main{
+    border-style: dashed;
+    border-width: 1px;
+}
+
+footer{
+    border-style: double;
+    border-width: 3px;
+
+}
+
+.lista-menu{
+    list-style: none;
+    
+}
+
+.lista-menu li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contenedor-principal main {
+    background-color: aquamarine ;
+    display: grid;
+    justify-content: center;
+}
+
+.comentarios{
+    border-style: dashed;
+    border-width: 1px;
+    width: 300px;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.comentarios article {
+    border-width: 1px;
+}
